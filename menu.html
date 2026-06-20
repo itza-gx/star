@@ -1,0 +1,383 @@
+<!-- FILE: menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Café - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Star Café</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Menu</h1>
+    </section>
+
+   
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-grid">
+
+                <!-- Menu Item 1: Espresso -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-espresso').value + ' Espresso(s)!'); return false;">
+                    <img src="../image/espresso.png" alt="Espresso" class="menu-item-img">
+                    <h3>Espresso</h3>
+                    <p>Rich and bold, our signature espresso shot</p>
+                    <div class="price">$3.50</div>
+                    <label for="qty-espresso">Quantity:</label>
+                    <input type="number" id="qty-espresso" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 2: Cappuccino -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cappuccino').value + ' Cappuccino(s)!'); return false;">
+                    <img src="../image/cappucino.jpg" alt="Cappuccino" class="menu-item-img">
+                    <h3>Cappuccino</h3>
+                    <p>Perfect balance of espresso, steamed milk, and foam</p>
+                    <div class="price">$4.50</div>
+                    <label for="qty-cappuccino">Quantity:</label>
+                    <input type="number" id="qty-cappuccino" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 3: Latte -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-latte').value + ' Latte(s)!'); return false;">
+                    <img src="../image/latte.png" alt="Latte" class="menu-item-img">
+                    <h3>Latte</h3>
+                    <p>Smooth espresso with velvety steamed milk</p>
+                    <div class="price">$4.75</div>
+                    <label for="qty-latte">Quantity:</label>
+                    <input type="number" id="qty-latte" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 4: Matcha latte -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-matcha').value + ' Matcha latte(s)!'); return false;">
+                    <img src="../image/matcha.png" alt="Matcha latte" class="menu-item-img">
+                    <h3>Matcha latte</h3>
+                    <p>Cold brew perfection over ice</p>
+                    <div class="price">$4.00</div>
+                    <label for="qty-matcha">Quantity:</label>
+                    <input type="number" id="qty-matcha" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 5: Mocha -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-mocha').value + ' Mocha(s)!'); return false;">
+                    <img src="../image/mocha.png" alt="Mocha" class="menu-item-img">
+                    <h3>Mocha</h3>
+                    <p>Chocolate and espresso harmony</p>
+                    <div class="price">$5.00</div>
+                    <label for="qty-mocha">Quantity:</label>
+                    <input type="number" id="qty-mocha" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 6: Matcha Strawberry -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-Matcha Strawberry').value + ' Matcha Strawberry(s)!'); return false;">
+                    <img src="../image/matcha2.png" alt="Matcha Strawberry" class="menu-item-img">
+                    <h3>Matcha Strawberry</h3>
+                    <p>Premium Japanese green tea latte</p>
+                    <div class="price">$5.25</div>
+                    <label for="qty-Matcha Strawberry">Quantity:</label>
+                    <input type="number" id="qty-Matcha Strawberry" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+                <!-- Menu Item 7: Matcha  -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-Matcha Strawberry').value + ' Matcha Strawberry(s)!'); return false;">
+                    <img src="../image/matcha3.png" alt="Matcha Strawberry" class="menu-item-img">
+                    <h3>Matcha </h3>
+                    <p>Premium Japanese green tea latte</p>
+                    <div class="price">$5.25</div>
+                    <label for="qty-Matcha Strawberry">Quantity:</label>
+                    <input type="number" id="qty-Matcha Strawberry" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                <!-- Menu Item 8: green tea -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-green tea').value + ' green tea(s)!'); return false;">
+                    <img src="../image/greentea.png" alt="green tea" class="menu-item-img">
+                    <h3>Green Tea</h3>
+                    <p>Light and refreshing green tea blended with creamy milk</p>
+                    <div class="price">$3</div>
+                    <label for="qty-green tea">Quantity:</label>
+                    <input type="number" id="qty-green tea" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                 <!-- Menu Item 9: milktea -->
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-milktea').value + ' milktea(s)!'); return false;">
+                    <img src="../image/milktea.png" alt="milktea" class="menu-item-img">
+                    <h3>Milk Tea</h3>
+                    <p>Smooth black tea blended with creamy milk and just the right sweetness</p>
+                    <div class="price">$5</div>
+                    <label for="qty-milktea">Quantity:</label>
+                    <input type="number" id="qty-milktea" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                 <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-espresso').value + ' Espresso(s)!'); return false;">
+                    <img src="../image/Cold Brew.jpg" alt="Cold Brew" class="menu-item-img">
+                    <h3>Cold Brew</h3>
+                    <p>Cold brew kind of mood</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-espresso">Quantity:</label>
+                    <input type="number" id="qty-espresso" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-strawberrylatte').value + ' Strawberry Latte(s)!'); return false;">
+                    <img src="../image/strawberrylatte.jpg" alt="Strawberry Latte" class="menu-item-img">
+                    <h3>Strawberry Latte</h3>
+                    <p>Delicious strawberry-flavored latte with a hint of vanilla</p>
+                    <div class="price">$2.50</div>
+                    <label for="qty-strawberrylatte">Quantity:</label>
+                    <input type="number" id="qty-strawberrylatte" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-whitechocolate').value + ' White Chocolate Latte(s)!'); return false;">
+                    <img src="../image/White Chocolate Latte.jpg" alt="White Chocolate Latte" class="menu-item-img">
+                    <h3>White Chocolate Latte</h3>
+                    <p>Rich white chocolate-flavored latte with a hint of vanilla</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-whitechocolate">Quantity:</label>
+                    <input type="number" id="qty-whitechocolate" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-strawberrylatte').value + ' Strawberry Latte(s)!'); return false;">
+                    <img src="../image/brownsugar.png" alt="Brown Sugar Latte" class="menu-item-img">
+                    <h3>Brown Sugar Latte</h3>
+                    <p>Delicious brown sugar-flavored latte with a hint of vanilla</p>
+                    <div class="price">$2.50</div>
+                    <label for="qty-brownsugar">Quantity:</label>
+                    <input type="number" id="qty-brownsugar" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                    
+                </form>
+                
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-watermelon').value + ' Watermelon Latte(s)!'); return false;">
+                    <img src="../image/watermelon.jpg" alt="Watermelon Latte" class="menu-item-img">
+                    <h3>Watermelon Latte</h3>
+                    <p>Refreshing watermelon-flavored latte with a hint of vanilla</p>
+                    <div class="price">$2.50</div>
+                    <label for="qty-watermelon">Quantity:</label>
+                    <input type="number" id="qty-watermelon" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-orange').value + ' Orange Juice(s)!'); return false;">
+                    <img src="../image/orange.jpg" alt="Orange Juice" class="menu-item-img">
+                    <h3>Orange Juice</h3>
+                    <p>Freshly squeezed orange juice</p>
+                    <div class="price">$2.50</div>
+                    <label for="qty-orange">Quantity:</label>
+                    <input type="number" id="qty-orange" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                 
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-orio').value + ' Orio Latte(s)!'); return false;">
+                    <img src="../image/orio.jpg" alt="Orio Latte" class="menu-item-img">
+                    <h3>Orio Latte</h3>
+                    <p>Delicious Orio-flavored latte with a hint of vanilla</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-orio">Quantity:</label>
+                    <input type="number" id="qty-orio" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                 
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-chocolate-mocha').value + ' Chocolate Mocha(s)!'); return false;">
+                    <img src="../image/Chocolate Mocha.png" alt="Chocolate Mocha" class="menu-item-img">
+                    <h3>Chocolate Mocha</h3>
+                    <p>Rich chocolate mocha with a hint of vanilla</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-chocolate-mocha">Quantity:</label>
+                    <input type="number" id="qty-chocolate-mocha" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+ 
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cake').value + ' Cake(s)!'); return false;">
+                    <img src="../image/cake.jpg" alt="Sprinkle Pop" class="menu-item-img">
+                    <h3>Sprinkle Pop</h3>
+                    <p>Delicious sprinkle-flavored cake</p>
+                    <div class="price">$0.50</div>
+                    <label for="qty-cake">Quantity:</label>
+                    <input type="number" id="qty-cake" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cake1').value + ' Cake(s)!'); return false;">
+                    <img src="../image/cake1.jpg" alt="Berry Bliss" class="menu-item-img">
+                    <h3>Berry Bliss</h3>
+                    <p>Delicious berry-flavored cake</p>
+                    <div class="price">$0.50</div>
+                    <label for="qty-cake1">Quantity:</label>
+                    <input type="number" id="qty-cake1" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+                 <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cake2').value + ' Cake(s)!'); return false;">
+                    <img src="../image/cake2.jpg" alt="Japanese Strawberry Shortcake" class="menu-item-img">
+                    <h3>Japanese Strawberry Shortcake</h3>
+                    <p>Sweetness is the garnish of life</p>
+                    <div class="price">$0.90</div>
+                    <label for="qty-cake2">Quantity:</label>
+                    <input type="number" id="qty-cake2" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+
+                 <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cake5').value + ' Cake(s)!'); return false;">
+                    <img src="../image/cake5.jpg" alt="Caramel Cheesecake" class="menu-item-img">
+                    <h3>Caramel Cheesecake</h3>
+                    <p>Stressed is just desserts spelled backward</p>
+                    <div class="price">$0.90</div>
+                    <label for="qty-cake5">Quantity:</label>
+                    <input type="number" id="qty-cake5" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+                 <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cookie').value + ' Cookie(s)!'); return false;">
+                    <img src="../image/cookie.jpg" alt="Chocolate Chip Cookies" class="menu-item-img">
+                    <h3>Chocolate Chip Cookies</h3>
+                    <p>Cookies are made of butter and love</p>
+                    <div class="price">$1.90</div>
+                    <label for="qty-cookie">Quantity:</label>
+                    <input type="number" id="qty-cookie" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+
+                <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-croissant').value + ' Croissant(s)!'); return false;">
+                    <img src="../image/ckae4.jpg" alt="Golden Croissant" class="menu-item-img">
+                    <h3>Golden Croissant</h3>
+                    <p>Crispy and buttery, a perfect morning treat</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-croissant">Quantity:</label>
+                    <input type="number" id="qty-croissant" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+
+                 <form class="menu-item" onsubmit="alert('Order placed for ' + document.getElementById('qty-cheesecake').value + ' Cheesecake(s)!'); return false;">
+                    <img src="../image/ckae6.jpg" alt="Japanese Cheesecake" class="menu-item-img">
+                    <h3>Japanese Cheesecake</h3>
+                    <p>Smooth and creamy, a delightful dessert</p>
+                    <div class="price">$1.50</div>
+                    <label for="qty-cheesecake">Quantity:</label>
+                    <input type="number" id="qty-cheesecake" name="quantity" value="1" min="1" max="100" class="quantity-input">
+                    <button type="submit" class="order-btn">Order Now</button>
+                </form>
+
+
+
+                
+
+            </div>
+        </div>
+    </section>
+  <!-- Footer -->
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Main Center Block -->
+        <div class="footer-main">
+            <h2>Star Café</h2>
+            <p class="footer-tagline">Brewing happiness, one cup at a time </p>
+            
+            <!-- Navigation Links -->
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Social Media Icons -->
+            <div class="footer-social">
+                <!-- Facebook -->
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                </a>
+                
+                <!-- Instagram -->
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                
+                <!-- TikTok -->
+                <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                    </svg>
+                </a>
+                
+                <!-- Twitter -->
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+                
+                <!-- YouTube -->
+                <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>📍 Chaoyang District, Beijing 100020</p>
+            <p>📞 +86 138 0000 8888</p>
+            <p>💌 starcafé@gmail.com</p>
+            <p>🕐 Mon-Fri: 7AM - 9PM</p>
+        </div>
+    </div>
+    
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2026 Star Café. All rights reserved. ˖ ꒰𑁬 ♡ ໒꒱ ˖</p>
+    </div>
+</footer>
+</body>
+</html>
